@@ -8,7 +8,6 @@ IN2 = 27
 ENA = 12  # PWM
 BOTON = 19  # <-- Aquí conectas tu botón
 
-# Setup GPIO
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(IN1, GPIO.OUT)
